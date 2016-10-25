@@ -1,0 +1,76 @@
+*{
+	width: auto;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Abhaya Libre', serif;
+	color: #000;
+	text-align: center;
+}
+
+#nav-bar a:hover{
+	color: #FFB6C1;
+}
+
+h1{
+	padding: 40px 0px 30px;	
+	font-size: 60px;
+}
+
+h1 a{
+	text-decoration: none;
+	color: #000;
+}
+
+#nav-bar{
+	margin: 10px 50px;
+	font-size: 30px;
+}
+
+
+#nav-bar a{
+	display: inline-block;
+	color: #000;
+	text-decoration: none;
+	width: 20%;
+}
+
+
+.nav-icon{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+	color: #000;
+	font-size: 50px;
+}
+.nav-icon:hover{
+	color: #FFB6C1;
+}
+
+.post{
+	width: 20%;
+	float: left;
+}
+
+
+img{
+	display: block;
+	width: 100% !important;
+}
+
+a .social-icon{
+	width: 4%;
+	float: left;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
