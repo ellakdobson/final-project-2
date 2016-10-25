@@ -9,7 +9,12 @@ body{
 	text-align: center;
 }
 
-#nav-bar a:hover{
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
 	color: #FFB6C1;
 }
 
@@ -18,24 +23,26 @@ h1{
 	font-size: 60px;
 }
 
-h1 a{
-	text-decoration: none;
+h1 a:hover{
 	color: #000;
 }
 
-#nav-bar{
+.nav-bar{
 	margin: 10px 50px;
 	font-size: 30px;
 }
 
 
-#nav-bar a{
+.nav-bar a{
 	display: inline-block;
 	color: #000;
 	text-decoration: none;
 	width: 20%;
 }
 
+.nav-bar a:hover{
+	color: #FFB6C1;
+}
 
 .nav-icon{
 	position: absolute;
@@ -44,41 +51,50 @@ h1 a{
 	color: #000;
 	font-size: 50px;
 }
-.nav-icon:hover{
-	color: #FFB6C1;
-}
+
 
 .post{
-	width: 20%;
+	display: block;
 	float: left;
+	width: 33.33%;
+	padding: 40px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
+
+
+
+
+
 
 
 img{
 	display: block;
-	width: 100% !important;
+	width: 100%;
 }
 
 a .social-icon{
-	width: 4%;
+	width: 3%;
 	float: left;
 }
-
 
 
 
 /*grid system*/
 
-.grid-row { margin:0 -20px; } .grid-column {
-float:left;
-margin:0;
-padding:0 20px; /* match to .grid-container */
+.grid-row { margin:0 -20px; } 
+.grid-column {
+	float:left;
+	margin:0;
+	padding:0 20px; /* match to .grid-container */
 }
-.grid-quarter .grid-third .grid-half .grid-two-third .grid-three-quarter .grid-whole
-{ width:25%; }
-{ width:33.333%; } { width:50%; }
-{ width:66.667%; } { width:75%; }
-{ width:100%; }
+
+.grid-quarter  { width:25%; }
+.grid-third { width:33.333%; } 
+.grid-half { width:50%; }
+.grid-two-third { width:66.667%; } 
+.grid-three-quarter{ width:75%; }
+.grid-whole{ width:100%; }
 
 
 
